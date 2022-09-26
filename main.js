@@ -1,16 +1,6 @@
-
 let titleDiv = document.getElementById('title');
-console.log('before: ',
-titleDiv.innerText);
-
-let message = 'Box game'
-titleDiv.innerText = message;
-console.log('after: ',
-titleDiv.innerText);
-
-titleDiv.innerHTML =`<p>${message}</p>`
-
 titleDiv.style.backgroundColor = "Orange";
+
 
 let blueDiv = document.getElementById('blue');
 let redDiv = document.getElementById('red');
